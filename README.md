@@ -40,43 +40,43 @@ Rocketshoes é uma aplicação de Ecommerce para vender tênis e sapatos. Desenv
 
 ## :hammer: Iniciando a aplicação
 
-Para iniciar a aplicação, primeiro instale todas as dependências:
+Para executar a aplicação execute os seguintes comandos:
+
+Instale todas a dependências:
 
 ```bash
 
-  yarn
+yarn
 
 ```
 
-Agora execute:
+Dentro do diretório ios, execute:
 
 ```bash
 
-  expo start
+  pod install
 
 ```
 
-Após executar, o Expo abrirá uma nova janela em seu navegador, contendo o espaço de Debug da sua aplicação, e um QRCode, caso você queira executar em um dispositivo real.
+Para instalar todas as dependências do Cocoapods.
 
-Para executar em um dispositivo real, é necessário baixar o aplicativo do Expo IO no seu device. Após isso faça a leitura do QRCode e espere carregar o `bundle` da aplicação.
-
-Ele oferece opcões para executar em um simulador, `Android` ou `iOS`.
-
-Também é possível executa-lo diretamente via terminal, executando o seguinte comando:
-
-Para executar na plataforma `iOS`:
+Para executar na plataforma iOS, execute o seguinte comando:
 
 ```bash
 
-  yarn ios
+  react-native run-ios
 
 ```
 
-ou `Android`:
+Para executar na plataforma Android, primeiro você deve abrir o Emulador:
+
+Inicie o Android Studio em sua máquina, depois procure por AVD Manager, gerenciador de emuladores Android, escolha um Emulador existente ou crie um do zero.
+
+Após iniciar o emulador execute o seguinte comando:
 
 ```bash
 
-  yarn android
+  react-native run-android
 
 ```
 
